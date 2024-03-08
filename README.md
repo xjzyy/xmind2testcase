@@ -95,6 +95,16 @@ Example:
  xmind2testcase webtool 8000   => launch the web testcase convertion tool locally -> 127.0.0.1:8000
 ```
 
+##### 2.1、查看压测报告
+```
+Usage:
+ 启动9001端口
+
+Example:
+cd /root/jmeter/report
+nohup python -m SimpleHTTPServer 9001 > /dev/null 2>&1 &
+```
+
 #### 3、API调用
 ```
 import json
